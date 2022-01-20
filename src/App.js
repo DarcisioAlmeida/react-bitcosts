@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom'
   import Company from './components/pages/company/Company'
   import Contact from './components/pages/contact/Contact'
   import Home from './components/pages/home/Home'
-  import NewProject from './components/pages/newproject/NewProject'
+  import NewProject from './components/pages/newProject/NewProject'
   import Projects from './components/pages/projects/Projects'
 
 function App() {
