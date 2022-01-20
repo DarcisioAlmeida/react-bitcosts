@@ -1,5 +1,5 @@
-
 import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom'
+
 /* Import Layout */
   import Container from './components/layout/container/Container'
   import Navbar from './components/layout/navbar/Navbar'
@@ -11,21 +11,21 @@ import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom'
   import Home from './components/pages/home/Home'
   import NewProject from './components/pages/newProject/NewProject'
   import Projects from './components/pages/projects/Projects'
+  import ProjectDetails from './components/pages/projectDetails/ProjectDetails'
 
 function App() {
   return (
     <Router>
       <Navbar/>
-        <Container customClass="min-height">
-      <Routes>
-        
+      <Container customClass="min-height">
+        <Routes>
           <Route exact path="/" element={<Home/>}/>
-          <Route exact path="/projects" element={<Projects/>}/>
-          <Route exact path="/company" element={<Company/>}/>
-          <Route exact path="/contact" element={<Contact/>}/>
-          <Route exact path="/newproject" element={<NewProject/>}/>
-        
-      </Routes>
+          <Route path="/projects" element={<Projects/>}/>
+          <Route path="/company" element={<Company/>}/>
+          <Route path="/contact" element={<Contact/>}/>
+          <Route path="/newproject" element={<NewProject/>}/>
+          <Route path="/project/:id" element={<ProjectDetails/>}/>
+        </Routes>
       </Container>
       <Footer/>
     </Router>
