@@ -15,17 +15,20 @@
 }
 
 .project_card p {
-  color: #7a7a7a;
+  color: #222;
   margin-bottom: 1em;
 }
 
 .project_card p span {
   font-weight: bold;
+  color: #222;
 }
 
 .category_text {
   display: flex;
   align-items: center;
+  color: #222;
+  font-weight: bolder;
 }
 
 .category_text span {
@@ -33,10 +36,12 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #ccc;
+  background-color: #ffbb33;
   margin-right: 5px;
+  
+  
 }
-
+/*
 .category_text .infra {
   background-color: #ffaebc;
 }
@@ -52,7 +57,7 @@
 .category_text .planejamento {
   background-color: #fbe7c6;
 }
-
+*/
 .project_card_actions {
   margin-top: 1.2em;
   display: flex;

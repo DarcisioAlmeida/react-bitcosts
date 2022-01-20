@@ -28,6 +28,70 @@
       "cost": 0,
       "services": [],
       "id": 3
+    },
+    {
+      "name": "BitCoin Budge",
+      "budget": "1000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
+    },
+    {
+      "name": "Teste de Software",
+      "budget": "3000",
+      "category": {
+        "id": "7",
+        "name": "Qualidade de Software"
+      },
+      "cost": 200,
+      "services": [
+        {
+          "name": "L&S Futebol",
+          "cost": "200",
+          "description": "servicos de teste",
+          "id": "7be1ea63-8f81-4a62-abbf-3dfa37cb970a"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "WebSite",
+      "budget": "5000",
+      "category": {
+        "id": "5",
+        "name": "Programação Web"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 6
+    },
+    {
+      "name": "Stella",
+      "budget": "10000",
+      "category": {
+        "id": "9",
+        "name": "Administração de Redes"
+      },
+      "cost": 1500,
+      "services": [
+        {
+          "name": "Cabeamento",
+          "cost": "1000",
+          "description": "Cabeamento estruturado por fibra optica",
+          "id": "6b74fbd0-5ec5-4f54-8a6a-848962dabecc"
+        },
+        {
+          "name": "Acesso interface",
+          "cost": "500",
+          "description": "Acesso as interpolações",
+          "id": "6cbd5c69-2b4d-47a9-bdce-14cafc5de888"
+        }
+      ],
+      "id": 7
     }
   ],
   "categories": [

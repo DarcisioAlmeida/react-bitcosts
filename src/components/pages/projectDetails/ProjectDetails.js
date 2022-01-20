@@ -16,7 +16,7 @@
   import ServiceCard from '../../service/ServiceCard'
   import ServiceForm from '../../service/ServiceForm'
 
-  import styles from './Project.module.css'
+  import styles from '../projectDetails/ProjectDetails.module.css'
 
 /* Inicio */
 function Project() {
